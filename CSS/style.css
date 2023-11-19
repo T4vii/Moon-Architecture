@@ -30,6 +30,17 @@
   background-color: rgb(236, 236, 236);
 }
 
+.card {
+  width: 350px;
+  padding: 20px;
+  background-color: white;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
 .wood-bg {
   background: url(/IMAGES/Homepage/provocari.jpeg) no-repeat;
   background-size: cover;
@@ -40,5 +51,5 @@
   background: url(/IMAGES/Homepage/serv-cards.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 450px;
 }
