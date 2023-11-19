@@ -32,9 +32,9 @@
 
 .card {
   width: 350px;
+  height: 450px;
   padding: 20px;
-  background-color: white;
-  transition: box-shadow 0.25s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
 }
 
 .card:hover {
@@ -45,11 +45,4 @@
   background: url(/IMAGES/Homepage/provocari.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.bg-arch {
-  background: url(/IMAGES/Homepage/serv-cards.png) no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 450px;
 }
